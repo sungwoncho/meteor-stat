@@ -1,0 +1,29 @@
+{
+  "name": "meteor-loc",
+  "version": "0.1.0",
+  "description": "Count the lines of code for your Meteor app",
+  "main": "index.js",
+  "bin": {
+    "mloc": "./bin/mloc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sungwoncho/meteor-loc.git"
+  },
+  "keywords": [
+    "meteor",
+    "meteorjs",
+    "loc",
+    "lines-of-code"
+  ],
+  "author": "Sung Won Cho <mikeswcho@gmail.com> (https://sungwoncho.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sungwoncho/meteor-loc/issues"
+  },
+  "homepage": "https://github.com/sungwoncho/meteor-loc#readme",
+
+}
