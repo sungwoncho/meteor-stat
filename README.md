@@ -1,5 +1,17 @@
-# Meteor LOC
+# Meteor Stat
 
-[![Build Status](https://travis-ci.org/sungwoncho/meteor-loc.svg?branch=master)](https://travis-ci.org/sungwoncho/meteor-loc)
+[![Build Status](https://travis-ci.org/sungwoncho/meteor-stat.svg?branch=master)](https://travis-ci.org/sungwoncho/meteor-stat)
 
-Count the lines of code for your Meteor app.
+Get a simple analysis of your Meteor app.
+
+## Install
+
+    npm install meteor-stat -g
+
+## Usage
+
+Run `mstat` in your Meteor app's root directory.
+
+## License
+
+MIT
