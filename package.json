@@ -25,5 +25,13 @@
     "url": "https://github.com/sungwoncho/meteor-loc/issues"
   },
   "homepage": "https://github.com/sungwoncho/meteor-loc#readme",
-
+  "dependencies": {
+    "commander": "^2.8.1",
+    "gitignore-globs": "^0.1.1",
+    "gitignore-to-glob": "^0.1.2",
+    "micromatch": "^2.2.0",
+    "parse-gitignore": "^0.2.0",
+    "recursive-readdir": "^1.2.1",
+    "recursive-readdir-sync": "^1.0.6"
+  }
 }
