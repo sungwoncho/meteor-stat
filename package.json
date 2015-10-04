@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/sungwoncho/meteor-loc#readme",
   "dependencies": {
+    "colors": "^1.1.2",
     "commander": "^2.8.1",
     "gitignore-globs": "^0.1.1",
     "gitignore-to-glob": "^0.1.2",
