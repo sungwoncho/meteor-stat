@@ -2,12 +2,12 @@
   "name": "meteor-loc",
   "version": "0.1.0",
   "description": "Count the lines of code for your Meteor app",
-  "main": "index.js",
+  "main": "lib/mloc",
   "bin": {
     "mloc": "./bin/mloc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test"
   },
   "repository": {
     "type": "git",
@@ -29,10 +29,11 @@
     "colors": "^1.1.2",
     "commander": "^2.8.1",
     "gitignore-globs": "^0.1.1",
-    "gitignore-to-glob": "^0.1.2",
     "micromatch": "^2.2.0",
-    "parse-gitignore": "^0.2.0",
-    "recursive-readdir": "^1.2.1",
     "recursive-readdir-sync": "^1.0.6"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
   }
 }
