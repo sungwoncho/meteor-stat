@@ -1,6 +1,6 @@
 {
   "name": "meteor-stat",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Get a simple analysis of your Meteor app",
   "main": "lib/mstat",
   "bin": {
