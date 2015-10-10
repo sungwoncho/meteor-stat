@@ -4,6 +4,8 @@
 
 Get a simple analysis of your Meteor app.
 
+![](https://github.com/sungwoncho/meteor-stat/tree/master/assets/sample.png)
+
 ## Install
 
     npm install meteor-stat -g
