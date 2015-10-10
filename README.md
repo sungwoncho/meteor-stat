@@ -14,6 +14,11 @@ Get a simple analysis of your Meteor app.
 
 Run `mstat` in your Meteor app's root directory.
 
+## Node dependency
+
+Please note that you need node version later than v4 as meteor-stat uses
+ES 2015. Feel free to make a PR for backward support.
+
 ## License
 
 MIT
