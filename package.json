@@ -32,7 +32,8 @@
     "gitignore-globs": "^0.1.1",
     "lodash": "^3.10.1",
     "micromatch": "^2.2.0",
-    "recursive-readdir-sync": "^1.0.6"
+    "recursive-readdir-sync": "^1.0.6",
+    "update-notifier": "^0.5.0"
   },
   "devDependencies": {
     "chai": "^3.3.0",
