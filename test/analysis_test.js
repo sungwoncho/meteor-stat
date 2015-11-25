@@ -82,4 +82,19 @@ describe("Analysis", function(){
       expect(result).to.include(bothFile);
     });
   });
+
+  describe("#fetchLargestFiles", function() {
+    it("gets largest files with limit", function() {
+      var analysis = new Analysis([
+        {path: 'one.js', numLines: 12},
+        {path: 'two.js', numLines: 3},
+        {path: 'three.js', numLines: 8}
+      ]);
+
+      var result = analysis.fetchLargestFiles(2);
+      expect(result.length).to.equal(2);
+      expect(result[0].path).to.equal('one.js');
+      expect(result[1].path).to.equal('three.js');
+    });
+  });
 });
