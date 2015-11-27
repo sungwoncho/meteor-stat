@@ -97,4 +97,22 @@ describe("Analysis", function(){
       expect(result[1].path).to.equal('three.js');
     });
   });
+
+  describe("#fetchMostUsedExtensions", function() {
+    it("gets the most used extensions with limit", function() {
+      var analysis = new Analysis([
+        {path: 'one.js', extension: '.js', numLines: 10},
+        {path: 'two.js', extension: '.js', numLines: 12},
+        {path: 'three.cpp', extension: '.cpp', numLines: 30},
+        {path: 'four.jsx', extension: '.jsx', numLines: 5}
+      ]);
+
+      var result = analysis.fetchMostUsedExtensions(2);
+      expect(result.length).to.equal(2);
+      expect(result[0].name).to.equal('.js');
+      expect(result[0].numFiles).to.equal(2);
+      expect(result[1].name).to.equal('.cpp');
+      expect(result[1].numFiles).to.equal(1);
+    });
+  });
 });
