@@ -4,7 +4,7 @@
 
 Get a simple analysis of your Meteor app.
 
-![](https://github.com/sungwoncho/meteor-stat/blob/master/assets/sample.png)
+![](https://cldup.com/CL3KVPA1MU.gif)
 
 ## Install
 
