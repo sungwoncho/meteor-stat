@@ -1,6 +1,6 @@
 # Meteor Stat
 
-[![Build Status](https://travis-ci.org/sungwoncho/meteor-stat.svg?branch=master)](https://travis-ci.org/sungwoncho/meteor-stat)
+[![Build Status](https://travis-ci.org/sungwoncho/meteor-stat.svg?branch=master)](https://travis-ci.org/sungwoncho/meteor-stat) [![Vym](https://img.shields.io/badge/Reviewing%20with-Vym-blue.svg)](https://vym.io)
 
 Get a simple analysis of your Meteor app.
 
